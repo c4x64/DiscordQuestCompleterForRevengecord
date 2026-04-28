@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/revenge-mod/revenge-rnkit-typings/main/manifest.schema.json",
+  "name": "Quest Auto-Completer",
+  "description": "Automatically complete Discord quests with ease. Complete all quests at once or individual quests with a single tap.",
+  "authors": [
+    {
+      "name": "YourName",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "vendetta": {
+    "icon": "ic_verified_user",
+    "original": false,
+    "settings": "QuestAutoCompleteSettings"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "quest-auto-completer",
+  "version": "1.0.0",
+  "description": "Automatically complete Discord quests with a single tap",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "npm run build",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "keywords": [
+    "revenge",
+    "plugin",
+    "quest",
+    "auto-complete",
+    "discord"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.70.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@vendetta/metro": "*",
+    "@vendetta/ui/toasts": "*"
+  }
+}
