@@ -9,6 +9,7 @@
     }
   ],
   "main": "index.js",
+  "hash": "cb6e291567b0ee47b84aa984bd330697934fc325ea024d0f9d78978c5e13cf11",
   "version": "1.0.0",
   "vendetta": {
     "icon": "ic_verified_user",
