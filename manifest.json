@@ -1,4 +1,5 @@
 {
+  "id": "com.c4x64.quest-completer",
   "name": "Quest Auto-Completer",
   "description": "Automatically complete Discord quests with ease. Complete all quests at once or individual quests with a single tap.",
   "authors": [
