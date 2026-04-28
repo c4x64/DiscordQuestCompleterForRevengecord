@@ -637,4 +637,15 @@ export function QuestAutoCompleteSettings() {
   );
 }
 
-export default QuestAutoCompleteSettings;
+export default {
+  onLoad: () => {
+    console.log("[QuestAutoComplete] Plugin v1.0.0 loaded successfully");
+    console.log("[QuestAutoComplete] Ready to auto-complete quests!");
+  },
+
+  onUnload: () => {
+    console.log("[QuestAutoComplete] Plugin unloaded");
+  },
+
+  settings: QuestAutoCompleteSettings,
+};
